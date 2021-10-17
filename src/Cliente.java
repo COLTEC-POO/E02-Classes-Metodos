@@ -10,7 +10,7 @@ public class Cliente {
     int AgeUser;
     char Sex;
 
-    //Inicialização de usuário
+    //Variável primitiva auxiliar
     String lixo;
 
     //Impressão de dados para obtenção de valores

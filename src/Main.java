@@ -9,7 +9,7 @@ public class Main {
         //Instâncias
         Conta createdAccount = new Conta();
 
-        //Variáveis primitivas
+        //Variáveis primitivas aux
         byte menuOpcoes;
 
 

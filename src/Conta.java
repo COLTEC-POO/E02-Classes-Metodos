@@ -1,4 +1,4 @@
-//Biblio para increment e Random
+//Import para increment e Random
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
