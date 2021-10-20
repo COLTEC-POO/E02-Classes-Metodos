@@ -6,8 +6,7 @@ public class Main {
         account.deposit(100.0);
         account.withdraw(250.0);
 
-        account.printBalance();
-        account.printLimit();
+        account.printInfo();
     }
 
 }

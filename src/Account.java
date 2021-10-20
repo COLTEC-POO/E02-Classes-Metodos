@@ -34,6 +34,12 @@ public class Account {
         return true;
     }
 
+    public void printInfo() {
+        this.printOwner();
+        this.printBalance();
+        this.printLimit();
+    }
+
     public void printLimit() {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         String moneyString = formatter.format(this.limit);
@@ -44,5 +50,9 @@ public class Account {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         String moneyString = formatter.format(this.total);
         System.out.println("Balance: " + moneyString);
+    }
+
+    public void printOwner() {
+        System.out.println("Owner: " + this.owner);
     }
 }
