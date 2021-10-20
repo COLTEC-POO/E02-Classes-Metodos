@@ -5,7 +5,6 @@ public class Client {
     private int age;
     private char sex;
 
-    // class constructor
     public Client(String name, String cpf, String address, int age, char sex) {
         this.name = name;
         this.cpf = cpf;
