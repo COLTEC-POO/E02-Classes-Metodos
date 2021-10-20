@@ -4,9 +4,9 @@ public class Account {
     private int id;
     private double total;
     private double limit;
-    private int owner;
+    private Client owner;
 
-    public Account(double total, double limit, int id, int owner) {
+    public Account(Client owner, double total, double limit, int id) {
         this.total = total;
         this.limit = limit;
         this.id = id;
@@ -53,6 +53,6 @@ public class Account {
     }
 
     public void printOwner() {
-        System.out.println("Owner: " + this.owner);
+        System.out.println("Owner: " + this.owner.getName());
     }
 }
