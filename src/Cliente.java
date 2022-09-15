@@ -32,7 +32,7 @@ public class Cliente{
         do{
             System.out.println("Informe o sexo [M/F]: ");
             this.setSexo(entrada.next().charAt(0));
-            ERRO = this.getSexo() != 'F' && this.getSexo() != 'M';
+            ERRO = (this.getSexo() != 'F' && this.getSexo() != 'M' && this.getSexo() != 'f' && this.getSexo() != 'm');
             if(ERRO) System.out.println("INFORME UM VALOR VALIDO [F/M]!");
         }while(ERRO);
     }
