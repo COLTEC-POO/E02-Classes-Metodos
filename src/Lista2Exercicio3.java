@@ -9,7 +9,7 @@ public class cliente{
 }
 
 //clase main com impressões
-
+public main{
 public static void main(String[]args){
 
   cliente meucliente = new cliente();
