@@ -16,6 +16,7 @@ public class Main {
         contaMaria.saldo = 2000.0;
         contaMaria.numConta = 2;
 
+        contaJoao.imprimir();
 
     }
 }
