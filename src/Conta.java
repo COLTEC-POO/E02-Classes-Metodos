@@ -1,15 +1,10 @@
 public class Conta {
 
+    Cliente dono = new Cliente();
     int numConta;
-    String dono;
     double saldo;
     double limite;
-
     public Conta() {
-        this.numConta = -1;
-        this.dono = "<INVÁLIDO>";
-        this.saldo = 0;
-        this.limite = 0;
     }
     //depósito
     public void depositar(double valor){
@@ -40,11 +35,17 @@ public class Conta {
         }
     }
 
-    public void imprimir (){
+    public void imprimir(){
         System.out.println(">>Dados da conta<<");
-        System.out.println("Dono da conta: " + dono);
+        System.out.println("Dono da conta: " + this.dono.nome);
         System.out.println("Número da conta: " + numConta);
         System.out.println("Saldo atual: " + saldo);
         System.out.println("Limite: " + limite);
+    }
+
+    public void imprimirSaldo(){
+        System.out.println(">>Conta: " +this.numConta + "<<");
+        System.out.println("Dono da conta: " + this.dono.nome);
+        System.out.println("Saldo: " + this.saldo);
     }
 }
