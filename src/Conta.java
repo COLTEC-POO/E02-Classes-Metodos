@@ -40,10 +40,4 @@ public class Conta {
         }
     }
 
-    public void imprimirDados (){
-        System.out.println("Dono da conta: " + dono);
-        System.out.println("Número da conta: " + numConta);
-        System.out.println("Saldo atual: " + saldo);
-        System.out.println("Limite: " + limite);
-    }
 }
