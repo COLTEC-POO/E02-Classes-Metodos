@@ -16,5 +16,9 @@ public class Main {
                 "Maria"
         );
 
+        //imprimir dados das contas
+        contaJoao.imprimir();
+        System.out.println();
+        contaMaria.imprimir();
     }
 }
