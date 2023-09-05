@@ -9,16 +9,9 @@ public class Main {
                 100.0,
                 "João"
         );
-        Conta contaMaria = new Conta(
-                10255,
-                "maria123",
-                200.0,
-                "Maria"
-        );
 
         //imprimir dados das contas
         contaJoao.imprimir();
-        System.out.println();
-        contaMaria.imprimir();
+
     }
 }
